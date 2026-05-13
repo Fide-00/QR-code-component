@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+
+        <style>
+            
+            .padded-box
+            {
+                border: 2px solid orange;
+                padding: 20px;
+                color: white;
+            }
+
+            .default-box1
+            {
+                border: 2px solid orange;
+                color: white;
+
+            }
+
+/*----------------------------------------------------------------------------------*/
+
+            .custom-box2
+            {
+                border: 2px solid orange;
+                padding: 20px;
+                margin: 10px;
+                color: white;
+            }
+
+            .custom-box1
+            {
+                border: 2px solid orange;
+                padding: 20px;
+                color: white;
+            }
+
+            .default-box2
+            {
+                border: 2px solid orange;
+                color: white;
+            }
+
+            body
+            {
+                background-color: black;
+            }
+
+/*----------------------------------------------------------------------------------*/
+
+            div
+            {
+                border: 1px solid orange;
+                box-shadow: 0 2px 4px white;
+                display: flex;
+            }
+
+            p
+            {
+                border: 1px solid orange;
+                margin-left: 2px;
+            }
+
+        </style>
+
+
+    </head>
+    <body>
+        <div class="padded-box">
+            Element with padding.
+        </div><br>
+        <div class="default-box1">
+            Element without padding.
+        </div>
+
+<!--------------------------------------------------------------------------------->
+
+        <div class="default-box2">
+            Element without padding and margin.
+        </div>
+        <div class="custom-box1">
+            Element with padding.
+        </div>
+        <div class="custom-box2">
+            Element with padding and margin.
+        </div>
+
+<!--------------------------------------------------------------------------------->
+
+        <div>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+    </head>
+    
+    <body>
+        <div id="c1">
+
+            <h1 id="h1">Heading</h1>
+            <p id="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error in deleniti id eaque ducimus voluptatibus ipsam cupiditate officiis placeat quia, cumque accusantium tempore, dolores accusamus temporibus iusto optio possimus blanditiis?</p>
+            <button id="b1">Click me</button>
+            
+        </div>
+    </body>
+
+    <script>
+        let container = document.getElementById("c1");
+        container.style.display = "flex";
+        container.style.justifyContent = "center";
+        container.style.flexWrap = "wrap";
+        
+
+        let heading = document.getElementById("h1");
+        heading.textContent = "New Heading";
+
+        let paragraph = document.getElementById("p1");
+        paragraph.style.color = "red";
+
+        let button = document.getElementById("b1");
+        button.style.border = "3px solid";
+        button.style.borderRadius = "20px";
+        button.style.scale = "2";
+        button.onclick.alert = "Hello!";
+    </script>
+</html>

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ZeroTolerance</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body style="background-color:rgb(255, 203, 222); font-family: Arial, Helvetica, sans-serif;">
+        <header style="background-color:bisque; padding: 5px; text-align: center;">
+            <h1>New Tolerance Product</h1>
+            <img src="https://blob.sololearn.com/courses/np.png" alt="New Product Image" style="border: 5px solid black; border-radius: 25px; background-color: white;">
+        </header>
+        
+        <main style="background-color: azure; padding: 5px;">
+            <!-- product description -->
+            <p><strong>Tolerance</strong> is a good thing to have in <i>many</i> situations. Including, but <b><u>not</u></b> limited to, getting struck by a <em>meteor</em></p>
+
+
+            <!--Ordered list with nested unordered list for Items available for Sale-->
+            <h2>Tolerance Items</h2>
+            <ol>
+                <li>Consumables</li>
+                    <ul>
+                        <li>Apple</li>
+                        <li>Banana</li>
+                        <li>Grape</li>
+                    </ul>
+                
+                <li>Cosmetics</li>
+                    <ul>
+                        <li>Tolerance Bag</li>
+                        <li>Tolerance Water Bottle</li>
+                        <li>Tolerance Bracelet</li>
+                    </ul>
+
+                <li>Subscriptions</li>
+                    <ul>
+                        <li><button style="border-radius: 10px; background-color: white;">Monthly Subscription ($10)</button></li>
+                        <li><button style="border-radius: 10px; background-color: white;">Life-Time Subscription ($100)</button></li>
+                    </ul>
+            </ol>
+
+            <!--Form input for purchase checkout-->
+            <h3>Order Now!</h3>
+            <form>
+                <!--Items selection form select-->
+                <label for="s3">Consumables:</label>
+                <select name="Consumables" id="s3">
+                    <option value="None">None</option>
+                    <option value="Apple">Apple</option>
+                    <option value="Banana">Banana</option>
+                    <option value="Grape">Grape</option>
+                </select>
+
+                <br>
+                <label for="s4">Cosmetics:</label>
+                <select name="Cosmetics" id="s4">
+                    <option value="None">None</option>
+                    <option value="Bag">Tolerance Bag</option>
+                    <option value="Water Bottle">Tolerance Water Bottle</option>
+                    <option value="Bracelet">Tolerance Bracelet</option>
+                </select>
+
+                <br>
+                <label for="s5">Subscription:</label>
+                <select name="Subscription" id="s5">
+                    <option value="None">None</option>
+                    <option value="$10">Monthly Subscription ($10)</option>
+                    <option value="$100">Life-Time Subscription ($100)</option>
+                </select>
+
+                <!--Customer checkout information form input-->
+                <br><br>
+                <label for="t1">Name:</label>
+                <input type="text" name="Name" id="t1">
+
+                <label for="e2">Email:</label>
+                <input type="email" name="Email" id="e2" placeholder="example@domain.com" required>
+
+                <br>
+                <label for="s2">Payment Method:</label>
+                <select name="Payment Method" id="s2">
+                    <option value="Cash">Cash</option>
+                    <option value="Card">Card</option>
+                </select>
+
+                <br>
+                <input type="submit" onclick="alert('Order Complete!')">
+            </form>
+        </main>
+
+        <div id="LoginForm" style="background-color: ivory; padding: 5px;">
+            <h3>Sign-up</h3>
+            <!--Form input for login credentials-->
+            <fieldset>
+                <form>
+
+                    <!--Email input type for email-->
+                    <label for="e1">Email:</label>
+                    <input type="email" name="Email" id="e1" placeholder="example@domain.com" required>
+
+                    <br>
+                    <!--Password input type for password-->
+                    <label for="p1">Password:</label>
+                    <input type="password" name="Password" id="p1">
+
+                    <br>
+                    <!--Radio input type for gender selection-->
+                    <label for="r1">Male</label>
+                    <input type="radio" name="Gender" value="Male" id="r1">
+
+                    <label for="r2">Female</label>
+                    <input type="radio" name="Gender" value="Female" id="r2">
+
+                    <br>
+                    <!--Dropdown Menu of favorite sport with [<select> & <option>] elements-->
+                    <label for="s1">Favorite Sport:</label>
+                    <select id="s1" name="Favorite Sport">
+                        <option value="football">Football</option>
+                        <option value="basketball">Basketball</option>
+                        <option value="tennis">Tennis</option>
+                    </select>
+
+                    <br>
+                    <!--Select input type to send above field values to database-->
+                    <input type="submit" onclick="alert('Login Successful!')">
+                </form>
+            </fieldset>
+        </div>
+
+        <br>
+        <footer style="background-color: bisque; text-align: center; height: 50px; padding: 5px;" >
+            <!--Navigation menue for webpage-->
+            <nav>
+                <a href="#">Home</a>
+                <a href="content.html">Content</a>
+            </nav>
+        </footer>
+    </body>
+</html>

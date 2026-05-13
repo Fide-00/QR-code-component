@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>Login Page</title>
+    </head>
+    <body>
+        <fieldset>
+            <h2 style = "color: aquamarine; text-align: center;">login</h2>
+            <form>
+                <label for = "e1" >Email:</label>
+                <input type = "email" placeholder="example@domain.com" id = "e1" name = "Email">
+
+                <label for = "pass">Password:</label>
+                <input type = "password" id = "pass" name = "Password">
+
+                <label for = "b2">Remember me:</label>
+                <input type = "checkbox" id = "b2"><br>
+                
+                <input type = "submit">
+            </form>
+        </fieldset>
+
+        <fieldset>
+            <h2 style = "color: aquamarine; text-align: center;">Sign Up</h2>
+            <form>
+                <label for = "fn">First Name:<input type = "text" id = "fn" name = "FirstName"></label>
+                <label for = "ls">Surname:<input type = "text" id = "ls" name = "Surname"></label><br>
+                <label for = "e2">Email:<input type = "email" id = "e2" name = "Email"></label><br>
+                <label for = "pass2">Password:<input type = "password" id = "pass2" name = "Password"></label><br>
+                <h4 style = "border: 3px solid red; text-align: center;">Gender</h4>
+                <label for = "m" >Male<input type = "radio" id = "m" name = "gender" value = male></label>
+                <label for = "f" >Female<input type = "radio" id = "f" name = "gender" value = female></label><br>
+                <input type = "submit">
+            </form>
+        </fieldset>
+        <!--
+            A database is like a "large table." Tables contain columns and rows,
+            obviously. In databases, we call columns "fields" and rows "records." 
+            One way to not get confused between rows and fields, is that row starts 
+            with 'r', hence "record", leaving the other one (column) as field. 
+            A field in a table is made up of 2 main things: the name of the field 
+            itself, for example, "City Name", which is typically always the first 
+            thing in the field, and the rest of the data, which is below the field name. 
+            The idea here is that we want to store the city name, entered by the user, 
+            in a place in a table. So name = "City" refers to the name of the field 
+            called City in our database, and input type ="text" is to allow user to 
+            enter name of city. input type ="submit" is used to actually now send the
+            name of the city entered by the user under the field "City" in the database 
+            and store it.
+        -->
+    </body>
+</html>

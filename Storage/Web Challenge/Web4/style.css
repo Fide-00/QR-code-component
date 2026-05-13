@@ -1,0 +1,97 @@
+body{
+    background-color: rgb(195, 214, 234);
+}
+
+#mainContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+#formContainer{
+    position: relative;
+    padding: 150px;
+    background-color: rgba(87, 87, 153, 0.193);
+    box-shadow: 5px 5px 15px rgba(76, 0, 130, 0.23);
+    border-radius: 50px;
+}
+
+#b{
+    background-color: blue;
+    color: rgb(0, 251, 255);
+    width: 100px;
+    height: 50px;
+    margin-right: 25px;
+    border-radius: 50px;
+    box-shadow: 3px 3px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+#r{
+    background-color: red;
+    color: rgb(251, 255, 1);
+    width: 100px;
+    height: 50px;
+    margin-left: 25px;
+    margin-right: 25px;   
+    border-radius: 50px;
+    box-shadow: 3px 3px ;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 15px;
+    
+}
+
+#rt{
+    background-color: rgb(236, 253, 255);
+    color: rgb(252, 175, 255);
+    width: 100px;
+    height: 50px;
+    margin-left: 25px;   
+    border-radius: 50px;
+    box-shadow: 3px 3px ;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 15px;
+    
+}
+
+
+#b:hover{
+  transform:translate(3px, 3px); 
+  box-shadow: none;
+}
+
+#b:active{
+    transform: translate(6px, 6px);
+    box-shadow: -3px -3px rgb(50, 50, 88);
+}
+
+
+#r:hover{
+  transform:translate(3px, 3px); 
+  box-shadow: none;
+}
+
+#r:active{
+    transform: translate(6px, 6px);
+    box-shadow: -3px -3px rgb(50, 50, 88);
+}
+
+
+#rt:hover{
+  transform:translate(3px, 3px); 
+  box-shadow: none;
+}
+
+#rt:active{
+    transform: translate(6px, 6px);
+    box-shadow: -3px -3px rgb(50, 50, 88);
+}

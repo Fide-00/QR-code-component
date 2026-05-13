@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body id="bd">
+        <div id="mainContainer">
+            
+            <div id="formContainer">
+                <div id="buttonContainer">
+                    <button id="b" onclick="bluechange()">BLUE</button>
+                    <button id="r" onclick="redchange()">RED</button>
+
+                    <button id="rt" onclick="rev()">Revert</button>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            let red = document.getElementById("r");
+            let blue = document.getElementById("b");
+            let body = document.getElementById("bd");
+            let revert = document.getElementById("rt");
+
+            function redchange(){
+                body.style.backgroundColor = "red";
+            }
+
+            function bluechange(){
+                body.style.backgroundColor = "blue"
+            }
+
+            function rev(){
+                body.style.backgroundColor = "rgb(195, 214, 234)"
+            }
+        </script>
+    </body>
+</html>

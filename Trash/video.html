@@ -1,0 +1,59 @@
+<!--The `src` attribute is used to specify the URL of the media file that should
+be played by the media player, while the `<source>` tag is used to provide multiple
+versions of the same media file, in different formats or with different bitrates, 
+allowing the media player to choose the best version based on the user's device and 
+network conditions. 
+Ex - src attribute 
+................…..................................................................... 
+<video src="path/to/video.mp4"></video> 
+................…..................................................................... 
+Ex - source tag ................….....................................................
+<video> <source src="path/to/video.mp4" type="video/mp4"> <source src="path/to/video.webm" type="video/webm"> </video> -->
+
+<html>
+
+    <head>
+        <title>Video Page</title>
+    </head>
+
+    <body>
+
+        <header>
+            <!--intor information-->
+        </header>
+
+        <main>
+            <!--main content-->
+            <video controls>
+            <source src = "https://blob.sololearn.com/courses/video.mp4" type = "video/mp4">
+            <source src = "https://blob.sololearn.com/courses/video.ogg" type = "video/ogg">
+            Video not supported
+            </video>
+
+            <article>
+                <!--<article> represents an independent, self-contained piece of content.-->
+                <h4>5 Future-Proof Jobs</h4>
+                <p>Every industry needs coders...</p>
+            </article>
+
+            <section>
+                <!--<section> helps to break down the content into parts.-->
+                <h2>About Us</h2>
+                <p>We are a small company...</p>
+            </section>
+
+            <aside>
+                <!--<aside> is used for secondary, additional or somehow related content.-->
+                <h3>Related topics</h3>
+                <p>Did you know...</p>
+            </aside>
+        </main>
+
+        <footer>
+            <!--footer information-->
+
+        </footer>
+        
+
+    </body>
+</html>
